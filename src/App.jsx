@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { CalendarDays, Clock, Mail, MapPin, Phone, Instagram, Facebook, Tiktok } from "lucide-react";
+import { CalendarDays, Clock, Mail, MapPin, Phone, Instagram, Facebook, Music2 } from "lucide-react";
 import CONFIG from "./config.js";
 
 // Launch day midnight ET
@@ -154,7 +154,7 @@ export default function App() {
             <div className="mt-2 flex gap-3">
               <Social icon={Instagram} label="Instagram" href={CONFIG.SOCIAL.INSTAGRAM} />
               <Social icon={Facebook} label="Facebook" href={CONFIG.SOCIAL.FACEBOOK} />
-              <Social icon={Tiktok} label="TikTok" href={CONFIG.SOCIAL.TIKTOK} />
+              <Social icon={Music2} label="Music2" href={CONFIG.SOCIAL.Music2} />
             </div>
           </InfoTile>
         </section>
